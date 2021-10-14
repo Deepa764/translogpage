@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: url(logo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    color: white;
+    position:absolute;
+    top: 25%;
+    left: 42%;
+}
+.container h2{
+    font-size:30px ;
+    display: inline-block;
+    border-bottom: 5px solid purple;
+    padding: 1px 0px;
+    margin-bottom: 15px;
+    font-family: 'Josefin Sans', sans-serif;    
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 32px 10px;
+}
+.box input{
+    font-family: 'Pacifico', cursive;
+    background: none;
+    width: 75%;
+    border: none;
+    outline: none;
+    padding: 3px 18px;
+}
+.btn{
+    font-family: 'Pacifico', cursive;
+    background: none;
+    cursor:pointer ;
+    color: white;
+    margin: -4px 11px;
+    padding: 5px 14px;
+    border: 2px solid purple;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+} 
+.btn:hover{
+    cursor:pointer ;
+    color: purple;
+    font-weight: bold;
+    background-color: white;
+}
